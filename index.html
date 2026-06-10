@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Jonathan da Silva Gomes | Dev Fullstack</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+
+
+
+  <!-- NAVBAR -->
+
+  <nav class="navbar" id="navbar">
+
+    <div class="nav-logo">JG<span>.</span></div>
+
+    <ul class="nav-links" id="navLinks">
+
+      <li><a href="#home">Home</a></li>
+
+      <li><a href="#sobre">Sobre</a></li>
+
+      <li><a href="#skills">Skills</a></li>
+
+      <li><a href="#projetos">Projetos</a></li>
+
+      <li><a href="#contato">Contato</a></li>
+
+    </ul>
+
+    <button class="hamburger" id="hamburger">&#9776;</button>
+
+  </nav>
+
+
+
+  <!-- HERO -->
+
+  <section class="hero" id="home">
+
+    <div class="hero-content">
+
+      <p class="hero-greeting">Olá, eu sou 👋</p>
+
+      <h1 class="hero-name">Jonathan <span>da Silva Gomes</span></h1>
+
+      <h2 class="hero-role"><span id="typing"></span><span class="cursor">|</span></h2>
+
+      <p class="hero-desc">Desenvolvedor Fullstack apaixonado por criar soluções web e mobile com JavaScript, React, Node.js, TypeScript e React Native.</p>
+
+      <div class="hero-btns">
+
+        <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+
+        <a href="#contato" class="btn btn-outline">Fale Comigo</a>
+
+      </div>
+
+      <div class="hero-socials">
+
+        <a href="https://github.com/jonathandsg104" target="_blank"><i class="fab fa-github"></i></a>
+
+        <a href="https://www.linkedin.com/in/jonathangomes104" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+        <a href="mailto:jonathan.dsg104@gmail.com"><i class="fas fa-envelope"></i></a>
+
+      </div>
+
+    </div>
+
+    <div class="hero-code">
+
+      <div class="code-window">
+
+        <div class="code-header"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span><span class="code-title">jonathan.ts</span></div>
+
+        <pre class="code-body"><code><span class="c-kw">const</span> <span class="c-var">dev</span> = {
+
+  nome: <span class="c-str">"Jonathan da Silva Gomes"</span>,
+
+    <span class="c-str">"TypeScript"</span>,
+
+    <span class="c-str">"React"</span>,
+
+    <span class="c-str">"Node.js"</span>,
+
+    <span class="c-str">"React Native"</span>,
+
+    <span class="c-str">"SQL"</span>
+
+  ],
+
+  disponivel: <span class="c-kw">true</span>
+
+};</code></pre>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- SOBRE -->
+
+  <section class="section" id="sobre">
+
+    <h2 class="section-title">Sobre <span>Mim</span></h2>
+
+    <div class="sobre-grid">
+
+      <div class="sobre-text">
+
+        <p>Sou formado em <strong>Tecnologia da Informação e Comunicação pela UFSC</strong> e estou em transição para o desenvolvimento de software, com foco em <strong>Web e Mobile</strong>.</p>
+
+        <p>Tenho experiência sólida em gestão administrativa e operacional como proprietário da <strong>Galo Placas Veiculares Ltda</strong>, o que me deu uma visão estratégica de negócios que poucos desenvolvedores possuem.</p>
+
+        <p>Concluí o curso <strong>Fullstack JavaScript na OneBitcode</strong> e estou focado em construir projetos reais com as tecnologias mais demandadas do mercado.</p>
+
+        <div class="sobre-info">
+
+          <div class="info-item"><i class="fas fa-map-marker-alt"></i><span>Jacinto Machado - SC</span></div>
+
+          <div class="info-item"><i class="fas fa-graduation-cap"></i><span>TIC - UFSC (2019)</span></div>
+
+          <div class="info-item"><i class="fas fa-code"></i><span>Fullstack JS - OneBitcode</span></div>
+
+          <div class="info-item"><i class="fas fa-briefcase"></i><span>Aberto a oportunidades</span></div>
+
+        </div>
+
+      </div>
+
+      <div class="sobre-stats">
+
+        <div class="stat-card"><span class="stat-num">10+</span><span class="stat-label">Anos de Experiência Profissional</span></div>
+
+        <div class="stat-card"><span class="stat-num">6</span><span class="stat-label">Tecnologias Dominadas</span></div>
+
+        <div class="stat-card"><span class="stat-num">100%</span><span class="stat-label">Dedicação ao Aprendizado</span></div>
+
+        <div class="stat-card"><span class="stat-num">✓</span><span class="stat-label">Disponível para Projetos</span></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- SKILLS -->
+
+  <section class="section section-dark" id="skills">
+
+    <h2 class="section-title">Habilidades <span>Técnicas</span></h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-card"><div class="skill-icon js"><i class="fab fa-js"></i></div><h3>JavaScript</h3><p>Lógica, DOM, ES6+, async/await</p><div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div></div>
+
+      <div class="skill-card"><div class="skill-icon ts"><i class="fas fa-code"></i></div><h3>TypeScript</h3><p>Tipagem estática, interfaces, generics</p><div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div></div>
+
+      <div class="skill-card"><div class="skill-icon react"><i class="fab fa-react"></i></div><h3>React</h3><p>Hooks, Context API, componentes</p><div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+
+      <div class="skill-card"><div class="skill-icon node"><i class="fab fa-node-js"></i></div><h3>Node.js</h3><p>APIs REST, Express, autenticação</p><div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div></div>
+
+      <div class="skill-card"><div class="skill-icon rn"><i class="fas fa-mobile-alt"></i></div><h3>React Native</h3><p>Apps iOS e Android, Expo</p><div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div></div>
+
+      <div class="skill-card"><div class="skill-icon sql"><i class="fas fa-database"></i></div><h3>SQL</h3><p>Queries, joins, modelagem de dados</p><div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div></div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- PROJETOS -->
+
+  <section class="section" id="projetos">
+
+    <h2 class="section-title">Meus <span>Projetos</span></h2>
+
+    <div class="projetos-grid">
+
+      <div class="projeto-card">
+
+        <div class="projeto-header p1"><i class="fas fa-store"></i></div>
+
+        <div class="projeto-body">
+
+          <h3>Beauty Saloon</h3>
+
+          <p>Projeto front-end para salão de beleza, com interface responsiva e foco em experiência do usuário.</p>
+
+          <div class="projeto-tags"><span>HTML</span><span>CSS</span><span>Design</span></div>
+
+          <a href="https://github.com/jonathandsg104/beautysaloon" target="_blank" class="projeto-link"><i class="fab fa-github"></i> Ver no GitHub</a>
+
+        </div>
+
+      </div>
+
+      <div class="projeto-card">
+
+        <div class="projeto-header p2"><i class="fas fa-calculator"></i></div>
+
+        <div class="projeto-body">
+
+          <h3>Calculadora React</h3>
+
+          <p>Calculadora interativa construída em React, com lógica de operações e interface limpa.</p>
+
+          <div class="projeto-tags"><span>React</span><span>JavaScript</span><span>UI</span></div>
+
+          <a href="https://github.com/jonathandsg104/calculator-react" target="_blank" class="projeto-link"><i class="fab fa-github"></i> Ver no GitHub</a>
+
+        </div>
+
+      </div>
+
+      <div class="projeto-card">
+
+        <div class="projeto-header p3"><i class="fas fa-chart-line"></i></div>
+
+        <div class="projeto-body">
+
+          <h3>Marvel Comics Stores</h3>
+
+          <p>Projeto com foco em catálogo de produtos, exibindo uma loja temática com dados em TypeScript.</p>
+
+          <div class="projeto-tags"><span>TypeScript</span><span>Web</span><span>Catálogo</span></div>
+
+          <a href="https://github.com/jonathandsg104/Marvel-comics-stores" target="_blank" class="projeto-link"><i class="fab fa-github"></i> Ver no GitHub</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- CONTATO -->
+
+  <section class="section section-dark" id="contato">
+
+    <h2 class="section-title">Entre em <span>Contato</span></h2>
+
+    <div class="contato-grid">
+
+      <div class="contato-info">
+
+        <div class="contato-item"><i class="fas fa-envelope"></i><div><strong>E-mail</strong><p>jonathan.dsg104@gmail.com</p></div></div>
+
+        <div class="contato-item"><i class="fas fa-phone"></i><div><strong>Telefone</strong><p>(48) 9 9657-3094</p></div></div>
+
+        <div class="contato-item"><i class="fas fa-map-marker-alt"></i><div><strong>Localização</strong><p>Jacinto Machado - SC</p></div></div>
+
+        <div class="contato-item"><i class="fab fa-linkedin"></i><div><strong>LinkedIn</strong><p>linkedin.com/in/jonathangomes104</p></div></div>
+
+      </div>
+
+      <form class="contato-form" onsubmit="handleForm(event)">
+
+        <input type="text" placeholder="Seu nome" required />
+
+        <input type="email" placeholder="Seu e-mail" required />
+
+        <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+
+        <button type="submit" class="btn btn-primary">Enviar Mensagem <i class="fas fa-paper-plane"></i></button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+
+<p>Desenvolvido por <strong>Jonathan da Silva Gomes</strong> &mdash; 2024</p>
+
+    <div class="footer-socials">
+
+      <a href="https://github.com/jonathandsg104" target="_blank"><i class="fab fa-github"></i></a>
+
+      <a href="https://www.linkedin.com/in/jonathangomes104" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+    </div>
+
+  </footer>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+
